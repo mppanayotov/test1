@@ -139,7 +139,18 @@
 	display: flex;
 }
 
-.table-actions a {
+.table-actions label {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	height: auto;
+	min-height: 0;
+	width: auto;
+	min-width: 0;
+}
+
+.table-actions a,
+.table-actions label {
 	width: auto;
 	flex: 0 1 auto;
 	max-height: 100%;
@@ -148,8 +159,15 @@
 	transition: transform .3s ease-out, border-color .3s ease-out, border-radius .3s ease-out, max-width .3s ease-out, max-height .3s ease-out, background-color .3s ease-out, box-shadow .3s ease-out, color .3s ease-out, opacity .3s ease-out, visibility .3s ease-out;
 }
 
-.table-actions a+a {
+.table-actions a+a,
+.table-actions a+label,
+.table-actions label+a,
+.table-actions label+label {
 	margin-left: 18px;
+}
+
+.table-actions input {
+	display: none;
 }
 
 .table-actions .table-delete:hover,
