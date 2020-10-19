@@ -1,0 +1,222 @@
+/* ------------------------------------------------------------ *\
+	navbar-alt
+\* ------------------------------------------------------------ */
+.navbar-alt {
+	min-width: 320px;
+	padding: 20px 0;
+	padding-left: 60px;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767.98px) {
+	.navbar-alt {
+		padding-left: 0;
+		position: absolute;
+	}
+}
+
+.navbar-alt h1 {
+	font-size: 32px;
+	font-weight: 600;
+	margin: 0;
+	line-height: 1;
+}
+
+.navbar-alt {
+	h1 {
+		display: none !important;
+	}
+}
+
+@media(max-width: 1024px) {
+	.navbar-alt h1 {
+		font-size: 28px;
+	}
+}
+
+@media(max-width: 1024px) {
+	.navbar-alt h1 {
+		font-size: 24px;
+	}
+}
+
+.navbar-alt .page-title {
+	display: block;
+	float: none;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-alt .page-title {
+		padding-top: 6px;
+		padding-left: 52px;
+		margin-bottom: 24px;
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+.navbar-alt .container-fluid {
+	padding: 0 15px;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-alt .container-fluid {
+		display: block;
+	}
+}
+
+.navbar-alt .form-group-alt {
+	margin: 0;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-alt .form-group-alt {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100vw;
+		min-width: 320px;
+		max-width: none;
+	}
+}
+
+.navbar-alt .btn {
+	position: absolute;
+	top: 100%;
+	left: 15px;
+	transform: translateY(-50%);
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767.98px) {
+	.navbar-alt .btn {
+		transform: none;
+		top: 20px;
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	main-content-data
+\* ------------------------------------------------------------ */
+.main-content-data {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-content-data .card-table {
+	background: none;
+}
+
+/* ------------------------------------------------------------ *\
+	table-users
+\* ------------------------------------------------------------ */
+.table-users th span {
+	cursor: pointer;
+}
+
+.table-users th:nth-of-type(1) {
+	width: 20%;
+}
+
+.table-users th:nth-of-type(2) {
+	width: 17%;
+}
+
+.table-users th:nth-of-type(3) {
+	width: 10%;
+}
+
+.table-users th:nth-of-type(4) {
+	width: 10%;
+}
+
+/* ------------------------------------------------------------ *\
+	table-actions
+\* ------------------------------------------------------------ */
+.table-actions {
+	display: flex;
+}
+
+.table-actions a {
+	width: auto;
+	flex: 0 1 auto;
+	max-height: 100%;
+	font-size: 20px;
+	color: #C6C6C6;
+	transition: transform .3s ease-out, border-color .3s ease-out, border-radius .3s ease-out, max-width .3s ease-out, max-height .3s ease-out, background-color .3s ease-out, box-shadow .3s ease-out, color .3s ease-out, opacity .3s ease-out, visibility .3s ease-out;
+}
+
+.table-actions a+a {
+	margin-left: 18px;
+}
+
+.table-actions .table-delete:hover,
+.table-actions .table-delete:focus,
+.table-actions .table-delete:active {
+	color: #d32f2f;
+}
+
+.table-actions .table-edit:hover,
+.table-actions .table-edit:focus,
+.table-actions .table-edit:active {
+	color: #2a75f3;
+}
+
+/* ------------------------------------------------------------ *\
+	table-navigation
+\* ------------------------------------------------------------ */
+.table-navigation {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 60px;
+	padding-right: 20px;
+	margin-top: 25px;
+}
+
+.table-navigation .table__control {
+	width: auto;
+	max-width: 50%;
+	flex: 0 1 auto;
+	max-height: 100%;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+}
+
+.table-navigation .table__control select {
+	margin-left: 20px;
+}
+
+.table-navigation .page-item:first-child a,
+.table-navigation .page-item:last-child a {
+	background: none;
+	border: none;
+}
+
+/* ------------------------------------------------------------ *\
+	be-content-alt
+\* ------------------------------------------------------------ */
+.be-content-alt {
+	margin-left: 0;
+	padding-top: 90px;
+}
+
+/* ------------------------------------------------------------ *\
+	form elements
+\* ------------------------------------------------------------ */
+.form-group-alt--search-simple .form-control-alt {
+	padding: 7px 56px 7px 16px;
+}
+
+.form-group-alt--search-simple button {
+	top: 6px;
+	left: auto;
+	right: 13px;
+}
+
+.switch-button-lg-alt--dual span {
+	opacity: 1;
+	background-color: #d32f2f;
+}
